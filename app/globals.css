@@ -25,3 +25,49 @@ body {
     )
     rgb(var(--background-start-rgb));
 } */
+
+.main-login {
+  /* background: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.8) 0,
+    rgba(0, 0, 0, 0) 60%,
+    rgba(0, 0, 0, 0.8) 100%
+  ); */
+  background-image: url("/background-img.jpeg");
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.custom-nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px 32px;
+  /* padding: 16px; */
+  height: 80px;
+}
+
+.custom-nav .nav-item {
+  display: flex;
+}
+
+.nav-item-ele select {
+  border: 1px solid black;
+  border-radius: 6px;
+  padding: 4px 34px;
+  margin: 0px 16px;
+}
+
+.nav-item-ele button {
+  padding: 4px 14px;
+  background-color: red;
+  border-radius: 6px;
+  color: white;
+}
+
+.login-form {
+  color: #fff;
+}
